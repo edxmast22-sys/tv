@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    { "source": "/success", "destination": "/sucess.html" },
+    { "source": "/success.html", "destination": "/sucess.html" },
+    { "source": "/sucess", "destination": "/sucess.html" },
+    { "source": "/sucesso", "destination": "/sucess.html" },
+    { "source": "/sucesso.html", "destination": "/sucess.html" },
+    { "source": "/thank-you", "destination": "/sucess.html" },
+    { "source": "/obrigado", "destination": "/sucess.html" },
+    { "source": "/checkout/oferta", "destination": "/sucess.html" },
+    { "source": "/checkout/acesso", "destination": "/sucess.html" },
+    { "source": "/tracking", "destination": "/tracking.html" },
+    { "source": "/track", "destination": "/tracking.html" },
+    { "source": "/track.html", "destination": "/tracking.html" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}
