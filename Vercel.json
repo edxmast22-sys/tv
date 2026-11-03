@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i).* (bot|crawler|spider|googlebot|bingbot|yandex|facebookexternalhit|twitterbot|slurp|duckduckbot|baiduspider|curl|wget|python-requests).*"
+        }
+      ],
+      "destination": "https://google.com",
+      "permanent": false
+    }
+  ]
+}
